@@ -12,6 +12,8 @@
 		B1F06E9F1F43C65800BDC0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F06E9D1F43C65800BDC0FF /* Main.storyboard */; };
 		B1F06EA11F43C65800BDC0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F06EA01F43C65800BDC0FF /* Assets.xcassets */; };
 		B1F06EA41F43C65800BDC0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F06EA21F43C65800BDC0FF /* LaunchScreen.storyboard */; };
+		B1F06EAD1F43C6AD00BDC0FF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F06EAC1F43C6AD00BDC0FF /* OpenGLES.framework */; };
+		B1F06EAF1F43C77000BDC0FF /* OpenGLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F06EAE1F43C77000BDC0FF /* OpenGLView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B1F06EA01F43C65800BDC0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1F06EA31F43C65800BDC0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F06EA51F43C65800BDC0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F06EAC1F43C6AD00BDC0FF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B1F06EAE1F43C77000BDC0FF /* OpenGLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F06EAD1F43C6AD00BDC0FF /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				B1F06E981F43C65700BDC0FF /* HelloOpenGL */,
 				B1F06E971F43C65700BDC0FF /* Products */,
+				B1F06EAB1F43C6AD00BDC0FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				B1F06EA01F43C65800BDC0FF /* Assets.xcassets */,
 				B1F06EA21F43C65800BDC0FF /* LaunchScreen.storyboard */,
 				B1F06EA51F43C65800BDC0FF /* Info.plist */,
+				B1F06EAE1F43C77000BDC0FF /* OpenGLView.swift */,
 			);
 			path = HelloOpenGL;
+			sourceTree = "<group>";
+		};
+		B1F06EAB1F43C6AD00BDC0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F06EAC1F43C6AD00BDC0FF /* OpenGLES.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F06E9C1F43C65800BDC0FF /* ViewController.swift in Sources */,
+				B1F06EAF1F43C77000BDC0FF /* OpenGLView.swift in Sources */,
 				B1F06E9A1F43C65800BDC0FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
