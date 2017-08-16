@@ -14,6 +14,8 @@
 		B1F06EA41F43C65800BDC0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F06EA21F43C65800BDC0FF /* LaunchScreen.storyboard */; };
 		B1F06EAD1F43C6AD00BDC0FF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F06EAC1F43C6AD00BDC0FF /* OpenGLES.framework */; };
 		B1F06EAF1F43C77000BDC0FF /* OpenGLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F06EAE1F43C77000BDC0FF /* OpenGLView.swift */; };
+		B1F06EB11F43EA0F00BDC0FF /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B1F06EB01F43EA0F00BDC0FF /* SimpleVertex.glsl */; };
+		B1F06EB31F43EAFF00BDC0FF /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = B1F06EB21F43EAFF00BDC0FF /* SimpleFragment.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B1F06EA51F43C65800BDC0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1F06EAC1F43C6AD00BDC0FF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B1F06EAE1F43C77000BDC0FF /* OpenGLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGLView.swift; sourceTree = "<group>"; };
+		B1F06EB01F43EA0F00BDC0FF /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		B1F06EB21F43EAFF00BDC0FF /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				B1F06EA21F43C65800BDC0FF /* LaunchScreen.storyboard */,
 				B1F06EA51F43C65800BDC0FF /* Info.plist */,
 				B1F06EAE1F43C77000BDC0FF /* OpenGLView.swift */,
+				B1F06EB01F43EA0F00BDC0FF /* SimpleVertex.glsl */,
+				B1F06EB21F43EAFF00BDC0FF /* SimpleFragment.glsl */,
 			);
 			path = HelloOpenGL;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F06EA41F43C65800BDC0FF /* LaunchScreen.storyboard in Resources */,
+				B1F06EB11F43EA0F00BDC0FF /* SimpleVertex.glsl in Resources */,
 				B1F06EA11F43C65800BDC0FF /* Assets.xcassets in Resources */,
 				B1F06E9F1F43C65800BDC0FF /* Main.storyboard in Resources */,
+				B1F06EB31F43EAFF00BDC0FF /* SimpleFragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
